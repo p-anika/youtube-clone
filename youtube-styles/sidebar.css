@@ -1,0 +1,76 @@
+@media (max-width: 1200px) {
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 55px;
+    bottom: 0;
+    width: 72px;
+    background-color: white;
+    z-index: 200;
+    padding-top: 5px;
+  }
+  
+  .sidebar-link {
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .sidebar-link:hover {
+    background-color: rgb(235, 235, 235);
+  }
+  
+  /*targets all image elements inside the sidebar-link division*/
+  .sidebar-link img {
+    height: 24px;
+    margin-bottom: 4px;
+  }
+  
+  /*targets all div elements inside the sidebar-link division*/
+  .sidebar-link div {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1200.1px) {
+  body {
+    padding-left: 229px;
+  }
+
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 55px;
+    bottom: 0;
+    width: 205px;
+    background-color: white;
+    z-index: 200;
+    padding-top: 13px;
+  }
+
+  .sidebar-link {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px 2px;
+  }
+
+  .sidebar-link:hover {
+    background-color: rgb(235, 235, 235);
+  }
+
+  /*targets all image elements inside the sidebar-link division*/
+  .sidebar-link img {
+    height: 24px;
+    padding: 0 25px;
+  }
+
+  /*targets all div elements inside the sidebar-link division*/
+  .sidebar-link div {
+    font-size: 15px;
+  }
+}
